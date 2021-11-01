@@ -1,4 +1,3 @@
-import { postData } from "./js/postData";
 import { handleSubmit } from "./js/formHandler";
 import { validURL } from "./js/urlChecker";
 
@@ -10,4 +9,4 @@ import "./styles/footer.scss";
 
 console.log("WOOOHOOO!!!");
 
-export { postData, handleSubmit, validURL };
+export { handleSubmit, validURL };
